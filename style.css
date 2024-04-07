@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Bangers", system-ui;
+}
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#layer1Img,
+#layer2Img,
+#layer3Img,
+#layer4Img,
+#playerImg,
+#angler1Img,
+#angler2Img,
+#luckyImg,
+#projectileImg,
+#gearImg,
+#hiveWhaleImg,
+#droneImg,
+#smokeExplosionImg,
+#fireExplosionImg {
+    display: none;
+}
